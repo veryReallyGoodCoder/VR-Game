@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VRBehaviour : MonoBehaviour
 {
-    public GameObject desBottle;
+    public GameObject destroyedPrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -22,8 +22,9 @@ public class VRBehaviour : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Ground"))
         {
-            GameObject bottleDed = Instantiate(desBottle, transform.position, transform.rotation);
+            GameObject deadAsset = Instantiate(destroyedPrefab, transform.position, transform.rotation);
             Destroy(this.gameObject);
+            Destroy(deadAsset, 7);
         }
     }
 }
