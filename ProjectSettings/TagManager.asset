@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Anchor
   - Ground
+  - Climbable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - climbable
   - Water
   - UI
   - 
