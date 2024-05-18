@@ -6,6 +6,7 @@ public class VRBehaviour : MonoBehaviour
 {
     //prefab you want to instantiate
     public GameObject destroyedPrefab;
+    public GameObject fire;
 
     private Vector3 startPos;
 
@@ -32,6 +33,7 @@ public class VRBehaviour : MonoBehaviour
         {
             //instantiate prefab
             GameObject deadAsset = Instantiate(destroyedPrefab, transform.position, transform.rotation);
+            Instantiate(fire,transform.position, transform.rotation);
 
             float count = 0;
             count += Time.deltaTime;
