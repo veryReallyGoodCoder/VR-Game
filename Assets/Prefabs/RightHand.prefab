@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightHand
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d4ad3f45919b8b4b85211eb948d7b8c, type: 3}
+      propertyPath: m_TagString
+      value: Hand
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -67,6 +71,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d4ad3f45919b8b4b85211eb948d7b8c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2462355977974603219}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d4ad3f45919b8b4b85211eb948d7b8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4861913906921688389}
   m_SourcePrefab: {fileID: 100100000, guid: 6d4ad3f45919b8b4b85211eb948d7b8c, type: 3}
 --- !u!1 &2186034230099681738 stripped
 GameObject:
@@ -94,3 +101,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!135 &4861913906921688389
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2186034230099681738}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.05
+  m_Center: {x: -0.03, y: 0, z: 0.01}
