@@ -9,6 +9,7 @@ TagManager:
   - Climbable
   - enemy
   - Molotov
+  - Hand
   layers:
   - Default
   - TransparentFX
