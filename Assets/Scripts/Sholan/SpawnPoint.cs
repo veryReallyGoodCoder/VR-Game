@@ -20,6 +20,7 @@ public class SpawnPoint : MonoBehaviour
     {
         wave = 1;
         SpawnEnemy();
+        enemiesKilled = 0;
     }
 
     // Update is called once per frame
@@ -32,6 +33,7 @@ public class SpawnPoint : MonoBehaviour
         {
             wave++;
             enemiesKilled = 0;
+            canSpawn = true;
         }
 
         if (canSpawn == true)

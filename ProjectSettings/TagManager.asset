@@ -10,6 +10,7 @@ TagManager:
   - enemy
   - Molotov
   - Hand
+  - Spawn
   layers:
   - Default
   - TransparentFX
