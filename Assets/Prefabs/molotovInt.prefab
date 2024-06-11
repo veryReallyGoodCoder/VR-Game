@@ -9692,6 +9692,7 @@ GameObject:
   - component: {fileID: 8920084098734663935}
   - component: {fileID: 307603911506508006}
   - component: {fileID: 1959413379032713439}
+  - component: {fileID: 4371863376370054122}
   m_Layer: 0
   m_Name: molotovInt
   m_TagString: Untagged
@@ -9959,6 +9960,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyedPrefab: {fileID: 1598005102483454404, guid: e945ec5d92665ab42bf026c37f7cbf02, type: 3}
   fire: {fileID: 0}
+--- !u!65 &4371863376370054122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144188208296388355}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0019714953, y: 0.0019714956, z: 0.0060272138}
+  m_Center: {x: 0.000010223477, y: 0, z: 0.0005033831}
 --- !u!1 &1955615603744063245
 GameObject:
   m_ObjectHideFlags: 0
