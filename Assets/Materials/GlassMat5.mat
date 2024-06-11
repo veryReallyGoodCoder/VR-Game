@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlassMat 1
+  m_Name: GlassMat5
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 198cca65881615449b87620d104d4541, type: 2}
+  m_Parent: {fileID: 2100000, guid: 553a5e1d39f628c4fbafc56d86b8a073, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHAPREMULTIPLY_ON
@@ -42,10 +42,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _Metallic: 0.4
-    - _Smoothness: 1
+    m_Floats: []
     m_Colors:
-    - _BaseColor: {r: 0.3490566, g: 0.28623158, b: 0.12019401, a: 0.92941177}
-    - _Color: {r: 0.34905657, g: 0.28623155, b: 0.12019398, a: 0.92941177}
+    - _BaseColor: {r: 0.13420406, g: 0.3301887, b: 0.095007114, a: 0.92941177}
+    - _Color: {r: 0.13420403, g: 0.33018863, b: 0.0950071, a: 0.92941177}
   m_BuildTextureStacks: []
