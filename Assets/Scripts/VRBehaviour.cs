@@ -11,6 +11,8 @@ public class VRBehaviour : MonoBehaviour
     private Vector3 startPos;
 
     private bool isDestoyed;
+
+    public bool hasFire;
     
     // Start is called before the first frame update
     void Start()
@@ -33,7 +35,7 @@ public class VRBehaviour : MonoBehaviour
         {
             //instantiate prefab
             GameObject deadAsset = Instantiate(destroyedPrefab, transform.position, transform.rotation);
-            Instantiate(fire,transform.position, transform.rotation);
+            SpawnFire(hasFire);
 
             float count = 0;
             count += Time.deltaTime;
@@ -57,6 +59,15 @@ public class VRBehaviour : MonoBehaviour
             Debug.Log("Inactive, respwan running");
 
             Instantiate(gameObject, start.normalized, Quaternion.identity);
+        }
+    }
+
+    private void SpawnFire(bool hasFire)
+    {
+        if (hasFire)
+        {
+            Instantiate(fire, transform.position, transform.rotation);
+            Debug.Log("fire spawned");
         }
     }
 }
