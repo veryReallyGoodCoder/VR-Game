@@ -149,6 +149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle06M
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e39cdeb9b2836f4ca9f40c0992a301e, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

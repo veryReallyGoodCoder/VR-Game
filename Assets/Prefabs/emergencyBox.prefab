@@ -397,6 +397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: goldBar (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 3279339567608737270, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 99.999985
@@ -466,6 +470,10 @@ PrefabInstance:
     - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_Name
       value: goldBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 3279339567608737270, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_LocalScale.x
@@ -537,6 +545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: goldBar (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 3279339567608737270, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 99.999985
@@ -606,6 +618,10 @@ PrefabInstance:
     - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_Name
       value: goldBar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 3279339567608737270, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_LocalScale.x
@@ -677,6 +693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: goldBar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 3279339567608737270, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 99.999985
@@ -746,6 +766,10 @@ PrefabInstance:
     - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_Name
       value: goldBar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794867688437184332, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 3279339567608737270, guid: b04d0b5448e7bc14bb1ee4f2cf3a89e8, type: 3}
       propertyPath: m_LocalScale.x

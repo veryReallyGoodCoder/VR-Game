@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2478550239312682541, guid: b3830b3b2f190ee46a9c88433e985221, type: 3}
+      propertyPath: m_ClimbSettingsOverride.m_ConstantValue.m_AllowFreeXMovement
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478550239312682541, guid: b3830b3b2f190ee46a9c88433e985221, type: 3}
+      propertyPath: m_ClimbSettingsOverride.m_ConstantValue.m_AllowFreeZMovement
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2699452957352521506, guid: b3830b3b2f190ee46a9c88433e985221, type: 3}
       propertyPath: m_Radius
       value: 1

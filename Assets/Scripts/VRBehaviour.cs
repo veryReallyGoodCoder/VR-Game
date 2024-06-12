@@ -45,7 +45,7 @@ public class VRBehaviour : MonoBehaviour
             }
 
             Destroy(this.gameObject);
-            Destroy(deadAsset, 7);
+            Destroy(deadAsset, 5);
 
             //WaitForSeconds(7);
             isDestoyed = true;
@@ -68,6 +68,8 @@ public class VRBehaviour : MonoBehaviour
         {
             Instantiate(fire, transform.position, transform.rotation);
             Debug.Log("fire spawned");
+            Destroy(fire, 5);
+
         }
     }
 }
