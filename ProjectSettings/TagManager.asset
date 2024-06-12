@@ -11,6 +11,7 @@ TagManager:
   - Molotov
   - Hand
   - Spawn
+  - Weapon
   layers:
   - Default
   - TransparentFX

@@ -12,23 +12,21 @@ public class EnemyVThree : MonoBehaviour
     private NavMeshAgent agent;
     private bool inMolotov = false;
     [SerializeField] public bool nextWave = false;
-    SpawnPoint spawnPoint;
+    Spawn spawnPoint;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        spawnPoint = GameObject.Find("Spawn").GetComponent<SpawnPoint>();
+        //spawnPoint = GameObject.Find("SpawnPoint").GetComponent<SpawnPoint>();
+        spawnPoint = GameObject.Find("SpawnPoint").GetComponent<Spawn>();
+        player = GameObject.Find("Tracker").GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (inMolotov == false)
-        {
-            agent.SetDestination(player.position);
-            agent.speed = speed;
-        }   
+        ;
     }
 
     private void FixedUpdate()
@@ -36,6 +34,13 @@ public class EnemyVThree : MonoBehaviour
         if (health <= 0)
         {
             StartCoroutine(KillEnemy());
+        }
+
+
+        if (inMolotov == false)
+        {
+            agent.SetDestination(player.transform.position);
+            agent.speed = speed * 100 * Time.deltaTime;
         }
     }
 
